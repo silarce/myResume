@@ -5,9 +5,3 @@
     box-sizing: border-box;
 }
 
-#text{
-    overflow:scroll;
-    scroll-behavior: smooth;
-    
-}
-

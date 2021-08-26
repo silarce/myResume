@@ -182,6 +182,23 @@ function Header() {
                                             </LinkBox>
                                             <LinkBox>
                                                 <LinkTitle>
+                                                    <p></p>
+                                                </LinkTitle>
+                                                <TheLink>
+                                                    {`(用1920*1080外的解析度時幻燈片會有格子，修正中)`}
+                                                </TheLink>                                                
+                                            </LinkBox>
+                                            <LinkBox>
+                                                <LinkTitle>
+                                                    <p>網頁展示影片</p>
+                                                </LinkTitle>
+                                                <TheLink target="_blank"
+                                                    href="https://youtu.be/Cgt1U39lUDs">
+                                                    https://youtu.be/Cgt1U39lUDs
+                                                </TheLink>                                                 
+                                            </LinkBox>
+                                            <LinkBox>
+                                                <LinkTitle>
                                                     <p>原</p><p>始</p><p>碼 :</p>
                                                 </LinkTitle>
                                                 <TheLink target="_blank"
