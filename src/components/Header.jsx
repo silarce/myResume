@@ -170,23 +170,15 @@ function Header() {
                                                 <TheLink target="_blank"
                                                     href="https://silarce.github.io/myDogAndCats/">
                                                     https://silarce.github.io/myDogAndCats/
-                                                </TheLink>                                                
+                                                </TheLink>
                                             </LinkBox>
                                             <LinkBox>
                                                 <LinkTitle>
                                                     <p></p>
                                                 </LinkTitle>
                                                 <TheLink>
-                                                    {`(還未對火狐優化，請不要用火狐瀏覽)`}
-                                                </TheLink>                                                
-                                            </LinkBox>
-                                            <LinkBox>
-                                                <LinkTitle>
-                                                    <p></p>
-                                                </LinkTitle>
-                                                <TheLink>
-                                                    {`(用1920*1080外的解析度時幻燈片會有格子，修正中)`}
-                                                </TheLink>                                                
+                                                    {`(還未對火狐優化，請不要使用火狐瀏覽)`}
+                                                </TheLink>
                                             </LinkBox>
                                             <LinkBox>
                                                 <LinkTitle>
@@ -195,7 +187,7 @@ function Header() {
                                                 <TheLink target="_blank"
                                                     href="https://youtu.be/Cgt1U39lUDs">
                                                     https://youtu.be/Cgt1U39lUDs
-                                                </TheLink>                                                 
+                                                </TheLink>
                                             </LinkBox>
                                             <LinkBox>
                                                 <LinkTitle>
