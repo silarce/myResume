@@ -177,6 +177,14 @@ function Header() {
                                                     <p></p>
                                                 </LinkTitle>
                                                 <TheLink>
+                                                    {`(支援所有16:9尺寸螢幕)`}
+                                                </TheLink>
+                                            </LinkBox>
+                                            <LinkBox>
+                                                <LinkTitle>
+                                                    <p></p>
+                                                </LinkTitle>
+                                                <TheLink>
                                                     {`(還未對火狐優化，請不要使用火狐瀏覽)`}
                                                 </TheLink>
                                             </LinkBox>
