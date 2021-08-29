@@ -12,15 +12,21 @@ const SectionEssay = styled.p`
 width:100%;
 font-size:1.4rem;
 white-space: pre-wrap;
+line-height:2rem;
 background:#eee;
 padding:5px;
 margin:0;
 `
 const SectionTitle = styled.h3`
-width:100%;
+display:inline-block;
+width:auto;
 font-size:2rem;
-margin:0 0 10px 0;
+margin:0 10px 10px 0;
 padding-top:15px;
+`
+const TheLink = styled.a`
+display:inline-block;
+font-size:1.2rem;
 `
 const SectionSubTitle = styled.h6`
 display:inline-block;
@@ -38,11 +44,14 @@ function PageIntroduction() {
                     </Subject>
                 </Grid>
                 <Grid item sm={10} style={{
-                    background:"#ddd",
-                    padding:"8px",
-                    margin:"0 0 50px -8px"
+                    background: "#ddd",
+                    padding: "8px",
+                    margin: "0 0 50px -8px"
                 }}>
-                    <SectionTitle>個人作品:阿貓阿狗</SectionTitle>
+                    <div>
+                        <SectionTitle>個人作品:阿貓阿狗</SectionTitle>
+                        <TheLink href="https://silarce.github.io/myDogAndCats/">https://silarce.github.io/myDogAndCats/</TheLink>
+                    </div>
                     <SectionSubTitle>簡介與心得</SectionSubTitle>
                     <SectionEssay>{`	這個網頁是以我在資策會時做的第一個小專題為藍本製作的，可以說是該小專題的重製加強版。當時只會基本的HTML、CSS與JavaScript，現在我用React新製作出來，與舊版相比，除了新增了許多特效外，效能與可讀性也獲得很大的改善。
                     

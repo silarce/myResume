@@ -66,6 +66,7 @@ font-size:1rem;
 const SectionEssay = styled.p`
 width:100%;
 font-size:1.4rem;
+line-height:2rem;
 white-space: pre-wrap;
 `
 

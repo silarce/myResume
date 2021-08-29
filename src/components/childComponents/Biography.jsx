@@ -11,6 +11,7 @@ text-align:left;
 const SectionEssay = styled.p`
 width:100%;
 font-size:1.4rem;
+line-height:2rem;
 white-space: pre-wrap;
 background:#eee;
 padding:5px;
